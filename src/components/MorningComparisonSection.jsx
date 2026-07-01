@@ -279,6 +279,14 @@ export default function MorningTimelineComparison() {
 
       {/* Bottom Gradient */}
       <div className="relative mt-[-200px] overflow-hidden bg-gradient-to-r from-indigo-700 via-blue-600 to-sky-500 px-40 pb-32 pt-64">
+        {/* Diagonal Lines */}
+        <div
+          className="absolute inset-0 opacity-[0.08]"
+          style={{
+            backgroundImage:
+              "repeating-linear-gradient(-45deg, transparent, transparent 14px, rgba(255,255,255,0.7) 14px, rgba(255,255,255,0.7) 15px)",
+          }}
+        />
         <div className="text-white flex justify-between">
           <div>
             <h3 className="text-[40px] font-medium leading-none">

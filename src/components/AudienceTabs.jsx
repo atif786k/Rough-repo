@@ -79,7 +79,7 @@ const AudienceTabs = () => {
   const current = tabs[active];
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-[#ffffff] pb-12">
       {/* Header */}
       <div className="relative overflow-hidden">
         <div className="relative bg-gradient-to-r from-sky-500 via-blue-500 to-indigo-700 pt-24 pb-20">
@@ -141,7 +141,7 @@ const AudienceTabs = () => {
                     ${
                       isActive
                         ? "bg-gradient-to-r from-sky-500 to-indigo-700 text-white"
-                        : "bg-gray-50 text-gray-700 hover:bg-gray-100"
+                        : "bg-[#F5F7FA] text-gray-700 hover:bg-gray-100"
                     }
                     ${index > 0 ? "border-t sm:border-l sm:border-t-0 border-gray-200" : ""}
                   `}
@@ -201,11 +201,11 @@ const AudienceTabs = () => {
                     rounded-xl
                     border
                     border-gray-50
-                    bg-gray-50
+                    bg-[#F5F7FA]
                     p-[24px]
                     transition-all
                     duration-300
-                    hover:bg-white
+                    hover:bg-gray-100
                   "
                 >
                   <h4 className="text-[20px] font-semibold text-gray-800">

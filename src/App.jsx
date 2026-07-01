@@ -8,9 +8,12 @@ import Responsive from "./components/Responsive";
 import HeroSection from "./components/HeroSection";
 import AudienceTabs from "./components/AudienceTabs";
 import PlatformShowcase from "./components/PlatformShowcase";
+import EmployersStudents from "./components/EmployersStudents";
+import StatsBar from "./components/StatsBar";
 import MorningComparisonSection from "./components/MorningComparisonSection";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import FinalCTA from "./components/FinalCTA";
 
 const App = () => {
   const [bottle, setBottle] = useState(null);
@@ -66,8 +69,11 @@ const App = () => {
         <HeroSection />
         <AudienceTabs/>
         <PlatformShowcase/>
+        <StatsBar/>
+        <EmployersStudents/>
         <MorningComparisonSection/>
         <Testimonials/>
+        <FinalCTA/>
         <Footer/>
       {/* </div> */}
     </>
