@@ -125,7 +125,7 @@ const AudienceTabs = () => {
         </div>
 
         {/* Tabs */}
-        <div className="relative z-20 mx-auto -mt-8 px-40">
+        <div className="relative z-20 mx-auto -mt-8 px-4 md:px-40">
           <div className="grid overflow-hidden rounded-[20px] bg-white sm:grid-cols-3">
             {tabs.map((tab, index) => {
               const Icon = tab.icon;
@@ -176,7 +176,7 @@ const AudienceTabs = () => {
       </div>
 
       {/* Content */}
-      <div className="mx-auto px-40 pt-12">
+      <div className="mx-auto px-4 md:px-40 pt-12">
         <AnimatePresence mode="wait">
           <motion.div
             key={current.key}

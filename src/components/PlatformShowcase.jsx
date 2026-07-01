@@ -63,14 +63,14 @@ const sections = [
 
 const PlatformShowcase = () => {
   return (
-    <section className="bg-[#fafafa] py-20 px-40">
+    <section className="bg-[#fafafa] py-20 px-4 md:px-40">
       <div className="main-heading">
         <div className="mb-6 flex items-center gap-3">
           <span className="text-[#8ec5ff]">|</span>
           <p className="text-[16px] text-gray-400">What We Do Together</p>
           <span className="text-[#8ec5ff]">|</span>
         </div>
-        <div className="flex justify-between items-end">
+        <div className="md:flex md:justify-between md:items-end">
           <div className="text-[48px] font-semibold leading-tight">
             <h2>We handle the infrastructure.</h2>
             <h2>You focus on the students.</h2>

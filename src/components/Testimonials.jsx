@@ -22,7 +22,7 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section className="overflow-hidden bg-[#f7f7f8] py-28">
-      <div className="mx-auto px-40">
+      <div className="mx-auto px-4 md:px-40">
         {/* Header */}
         <div className="px-6 text-center space-y-3">
           <div className="flex items-center justify-center gap-3">

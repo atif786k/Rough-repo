@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const FinalCTA = () => {
   return (
-    <section className="w-full bg-white px-40 py-20 lg:py-28">
+    <section className="w-full bg-white px-4 md:px-40 py-20 lg:py-28">
         
       <motion.div
         initial={{ opacity: 0, y: 30 }}

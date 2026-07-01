@@ -192,11 +192,11 @@ const Footer = () => {
           className="
             absolute
             left-1/2
-            -top-10
+            -top-1
             -translate-x-1/2
             select-none
             whitespace-nowrap
-            text-[340px]
+            text-[260px]
             font-bold
             leading-none
             tracking-tight

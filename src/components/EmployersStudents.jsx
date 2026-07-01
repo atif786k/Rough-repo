@@ -16,7 +16,7 @@ const cards = [
 
 const EmployersStudents = () => {
   return (
-    <section className="overflow-hidden bg-[#f7f7f8] py-28 px-40">
+    <section className="overflow-hidden bg-[#f7f7f8] py-28 px-4 md:px-40">
       <div className="text-center space-y-3">
         <div className="flex items-center justify-center gap-3">
           <span className="text-[#8ec5ff]">|</span>

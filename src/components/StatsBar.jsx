@@ -19,7 +19,7 @@ const StatsBar = () => {
             "repeating-linear-gradient(-45deg, transparent, transparent 14px, rgba(255,255,255,0.7) 14px, rgba(255,255,255,0.7) 15px)",
         }}
       />
-      <div className="mx-auto h-full grid grid-cols-2 gap-8 lg:grid-cols-4 px-40">
+      <div className="mx-auto h-full grid grid-cols-2 gap-8 lg:grid-cols-4 px-4 md:px-40">
         {stats.map((s, i) => (
           <motion.div
             key={s.label}

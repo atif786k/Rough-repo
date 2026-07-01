@@ -207,7 +207,7 @@ export default function MorningTimelineComparison() {
 
   return (
     <section className="bg-[#f7f7f8] py-24">
-      <div className="mx-auto px-40">
+      <div className="mx-auto px-4 md:px-40">
         <div className="text-center space-y-3">
           <div className="flex items-center justify-center gap-3">
             <span className="text-[#8ec5ff]">|</span>
@@ -225,7 +225,7 @@ export default function MorningTimelineComparison() {
         </div>
 
         {/* Timeline */}
-        <div className="mt-10 flex items-center justify-center gap-6">
+        <div className="mt-10 flex items-center justify-center md:gap-6 -gap-1">
           <button
             disabled={step === 0}
             onClick={() => setStep((s) => s - 1)}
@@ -278,7 +278,7 @@ export default function MorningTimelineComparison() {
       </div>
 
       {/* Bottom Gradient */}
-      <div className="relative mt-[-200px] overflow-hidden bg-gradient-to-r from-indigo-700 via-blue-600 to-sky-500 px-40 pb-32 pt-64">
+      <div className="relative mt-[-200px] overflow-hidden bg-gradient-to-r from-indigo-700 via-blue-600 to-sky-500 px-4 md:px-40 pb-32 pt-64">
         {/* Diagonal Lines */}
         <div
           className="absolute inset-0 opacity-[0.08]"
@@ -287,7 +287,7 @@ export default function MorningTimelineComparison() {
               "repeating-linear-gradient(-45deg, transparent, transparent 14px, rgba(255,255,255,0.7) 14px, rgba(255,255,255,0.7) 15px)",
           }}
         />
-        <div className="text-white flex justify-between">
+        <div className="text-white md:flex md:justify-between">
           <div>
             <h3 className="text-[40px] font-medium leading-none">
               That's the

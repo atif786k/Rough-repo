@@ -62,14 +62,14 @@ const HeroSection = () => {
         left-0
         top-0
         h-full
-        w-[58%]
+        w-[81%]
         bg-gradient-to-br
         from-sky-500
         via-blue-600
         to-indigo-700
       "
         style={{
-          clipPath: "polygon(0 0, 75% 0, 100% 100%, 0 100%)",
+          clipPath: "polygon(0 0, 40% 0, 100% 100%, 0 100%)",
         }}
       />
 
@@ -80,7 +80,7 @@ const HeroSection = () => {
         {/* =========================
           LEFT CONTENT
       ========================== */}
-        <div className="flex w-1/2 items-center pl-40 pr-10">
+        <div className="flex w-1/2 items-center pl-40 pr-10 pt-24">
           <div className="text-white space-y-4">
             <div className="flex items-center justify-start gap-3">
               <span className="text-[#8ec5ff]">|</span>
